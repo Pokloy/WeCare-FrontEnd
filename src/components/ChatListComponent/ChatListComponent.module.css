@@ -1,0 +1,46 @@
+.profile-section-chat {
+  display: flex;
+  gap: 1rem;
+  color: #678990;
+  margin: 0.5rem;
+  cursor: pointer;
+}
+
+.piture-section-chat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.profile-image-chat {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-name-chat {
+  font-size: 2rem;
+}
+
+.message-section-chat {
+  display: flex;
+}
+.message-container-chat {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 80rem;
+}
+
+.profile-message-chat {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.online-time {
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
